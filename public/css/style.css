@@ -10,62 +10,105 @@ body {
 
 #header {
   position: relative;
-  left: 20px;
+  left: 50px;
   padding-bottom: 50px;
 }
 
 #content {
   position: relative;
-  left: 20px;
+  left: 50px;
   padding-bottom: 50px;
 }
 
-  .content-container {
-    /*border-style: solid;*/
-    /*border-width: 1px;*/
+  .summary-col {
+    display: inline-block;
+  }
+
+  .content-summary {
     position: relative;
-    padding-bottom: 5px;
   }
 
-  .content-section-end {
-    padding-bottom: 30px;
+  .summary-label-col {
+    width: 150px;
+    position: absolute;
+    top: 0px;
   }
 
-    .label-col {
-      /*border-style: solid;*/
-      /*border-width: 1px;*/
-      /*position: absolute;*/
-      /*left: 0px;*/
-      /*top: 0px;*/
-      padding: 10px 0px;
+  .summary-content-col {
+    padding-left: 100px;
+  }
+
+  /*.overall-summary {
+    height: 200px;
+  }
+
+    .content-summary {
+      position: absolute;
+      top: 0px;
+      padding-bottom: 5px;
+      display: inline-block;
+      padding-right: 50px;
     }
 
-    .content-col {
-      /*border-style: solid;*/
-      /*border-width: 1px;*/
-      /*margin-left: 100px;*/
+    #working {
+      left: 0px;
     }
 
-    .content-label {
-      padding: 0px;
-      margin: 0px;
+    #creating {
+      left: 300px;
     }
 
-    .content-item {
-      padding-top: 5px;
-      padding-bottom: 1px;
+    #skills {
+      left: 600px;
+    }*/
+
+    .content-container {
+      position: relative;
+      padding-bottom: 5px;
     }
 
-      .item-name {
+    .content-section-end {
+      padding-bottom: 30px;
+    }
+
+      .label-col {
+        padding: 10px 0px;
+      }
+
+      .content-col {
 
       }
 
-      .item-points {
-        position: relative;
-        left: 10px;
+      .content-label {
+        padding: 0px;
+        margin: 0px;
       }
+
+      .content-item {
+        padding-top: 5px;
+        padding-bottom: 1px;
+      }
+
+        .item-name {
+          text-decoration:underline;
+          display: inline-block;
+        }
+
+        .item-points {
+          position: relative;
+          left: 10px;
+        }
+
+          .item-points-name {
+
+          }
+
+          .item-points-descr {
+            position: relative;
+            left: 10px;
+          }
 
 #footer {
   position: relative;
-  left: 20px;
+  left: 50px;
 }
