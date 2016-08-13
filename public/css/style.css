@@ -10,41 +10,62 @@ body {
 
 #header {
   position: relative;
-  left: 40px;
+  left: 20px;
+  padding-bottom: 50px;
 }
 
 #content {
   position: relative;
-  left: 40px;
+  left: 20px;
+  padding-bottom: 50px;
 }
 
-.content-container {
-  border-style: solid;
-  border-width: 1px;
-}
+  .content-container {
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    position: relative;
+    padding-bottom: 5px;
+  }
 
-.label-col {
-  border-style: solid;
-  border-width: 1px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
+  .content-section-end {
+    padding-bottom: 30px;
+  }
 
-.content-col {
-  border-style: solid;
-  border-width: 1px;
-  margin-left: 100px;
-}
+    .label-col {
+      /*border-style: solid;*/
+      /*border-width: 1px;*/
+      /*position: absolute;*/
+      /*left: 0px;*/
+      /*top: 0px;*/
+      padding: 10px 0px;
+    }
 
-.content-label {
-}
+    .content-col {
+      /*border-style: solid;*/
+      /*border-width: 1px;*/
+      /*margin-left: 100px;*/
+    }
 
-.content-comp {
+    .content-label {
+      padding: 0px;
+      margin: 0px;
+    }
 
-}
+    .content-item {
+      padding-top: 5px;
+      padding-bottom: 1px;
+    }
+
+      .item-name {
+
+      }
+
+      .item-points {
+        position: relative;
+        left: 10px;
+      }
 
 #footer {
   position: relative;
-  left: 40px;
+  left: 20px;
 }
