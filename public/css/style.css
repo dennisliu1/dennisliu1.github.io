@@ -36,31 +36,24 @@ body {
 
   .summary-content-col {
     padding-left: 100px;
+    padding-bottom: 5px;
   }
 
-  /*.overall-summary {
-    height: 200px;
-  }
+    .midsection {
+      position: relative;
+      height: 300px;
+    }
 
-    .content-summary {
+    .subsection {
+      display: inline-block;
+      padding-right: 30px;
       position: absolute;
       top: 0px;
-      padding-bottom: 5px;
-      display: inline-block;
-      padding-right: 50px;
     }
 
-    #working {
-      left: 0px;
+    .section2 {
+      margin-left: 300px;
     }
-
-    #creating {
-      left: 300px;
-    }
-
-    #skills {
-      left: 600px;
-    }*/
 
     .content-container {
       position: relative;
