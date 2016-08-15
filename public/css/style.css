@@ -28,6 +28,16 @@ body {
     position: relative;
   }
 
+  .col2 {
+    position: absolute;
+    padding-left: 230px;
+  }
+
+  .summary-content-col2 {
+    padding-left: 70px;
+    padding-bottom: 5px;
+  }
+
   .summary-label-col {
     width: 150px;
     position: absolute;
@@ -78,7 +88,7 @@ body {
       }
 
       .content-item {
-        padding-top: 5px;
+        padding-top: 3px;
         padding-bottom: 1px;
       }
 
