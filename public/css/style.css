@@ -10,13 +10,12 @@ body {
 
 #header {
   position: relative;
-  left: 50px;
+  left: 30px;
   padding-bottom: 50px;
 }
 
 #content {
   position: relative;
-  left: 50px;
   padding-bottom: 50px;
 }
 
@@ -113,5 +112,47 @@ body {
 
 #footer {
   position: relative;
-  left: 50px;
+  left: 30px;
+}
+
+#row {
+  display: flex; /* equal height of the children */
+  position: relative;
+  left: 30px;
+}
+
+.col {
+  flex: 0.5 1 0;
+  /*border-width: thin;*/
+  /*border-style: dotted;*/
+}
+
+.col-side {
+  flex: 1;
+  /*border-width: thin;*/
+  /*border-style: dotted;*/
+}
+
+#sideContent {
+  /*position: absolute;*/
+  /*margin-left: 55%;*/
+}
+
+.expandTitle {
+  margin-top: 0px;
+}
+
+.expandSummary {
+
+}
+
+.expandImg {
+  margin-left: 10px;
+  border-style: solid;
+  border-width: thin;
+  border-color: currentColor;
+}
+
+.expandDescr {
+
 }
