@@ -1,0 +1,141 @@
+.content-summary {
+  position: relative;
+}
+
+.col2 {
+  position: absolute;
+  padding-left: 230px;
+}
+
+.summary-content-col2 {
+  padding-left: 70px;
+  padding-bottom: 5px;
+}
+
+.summary-label-col {
+  width: 150px;
+  position: absolute;
+  top: 0px;
+}
+
+.summary-content-col {
+  padding-left: 100px;
+  padding-bottom: 5px;
+}
+
+  .midsection {
+    position: relative;
+    height: 300px;
+  }
+
+  .subsection {
+    display: inline-block;
+    padding-right: 30px;
+    position: absolute;
+    top: 0px;
+  }
+
+  .section2 {
+    margin-left: 300px;
+  }
+
+  .section3 {
+    margin-left: 500px;
+  }
+
+  .section4 {
+    margin-left: 700px;
+  }
+
+  .content-container {
+    position: relative;
+    padding-bottom: 5px;
+  }
+
+  .content-section-end {
+    padding-bottom: 30px;
+  }
+
+    .label-col {
+      padding: 10px 0px;
+    }
+
+    .content-col {
+
+    }
+
+    .content-label {
+      padding: 0px;
+      margin: 0px;
+    }
+
+    .content-item {
+      padding-top: 3px;
+      padding-bottom: 1px;
+    }
+
+      .item-name {
+        text-decoration:underline;
+        display: inline-block;
+      }
+
+      .item-points {
+        position: relative;
+        left: 10px;
+      }
+
+        .item-points-name {
+
+        }
+
+        .item-points-descr {
+          position: relative;
+          left: 10px;
+        }
+
+#footer {
+position: relative;
+left: 30px;
+}
+
+#row {
+display: flex; /* equal height of the children */
+position: relative;
+left: 30px;
+}
+
+.col {
+flex: 0.5 1 0;
+/*border-width: thin;*/
+/*border-style: dotted;*/
+}
+
+.col-side {
+flex: 1;
+/*border-width: thin;*/
+/*border-style: dotted;*/
+}
+
+#sideContent {
+/*position: absolute;*/
+/*margin-left: 55%;*/
+}
+
+.expandTitle {
+margin-top: 0px;
+}
+
+.expandSummary {
+
+}
+
+.expandImg {
+margin-left: 10px;
+border-style: solid;
+border-width: thin;
+border-color: currentColor;
+}
+
+.expandDescr {
+
+}
