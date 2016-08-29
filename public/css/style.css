@@ -26,9 +26,10 @@ body {
 
 #header {
   position: relative;
-  left: 30px;
+  left: 10px;
   padding-bottom: 50px;
   margin-top: 10px;
+  /*margin-right: 20px;*/
 }
   #header-name {
     margin-top: 0px;
@@ -56,9 +57,37 @@ body {
     color: #25291C;
   }
 
+  .credits {
+    position: relative;
+    right: auto;
+    padding-top: 10%;
+    font-size: 80%;
+  }
 
-.col-md-2-5 {
-  width: 25%;
+
+  .contact-link {
+    padding-bottom: 2px;
+  }
+  #contact-linkedin-img {
+    bottom: 3px;
+    position: relative;
+  }
+  #contact-github-img {
+    bottom: 2px;
+    position: relative;
+  }
+
+/* desktop horizontal */
+@media (min-width: 992px) {
+  .col-md-2-5 {
+    width: 25%;
+  }
+}
+
+/* GLOBALS */
+
+img {
+
 }
 
 a {
