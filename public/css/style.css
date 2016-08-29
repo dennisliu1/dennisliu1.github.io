@@ -4,10 +4,6 @@
   Inconsolata.otf) format("truetype");
 }
 
-* {
-  font-family: inconsolata;
-}
-
 body {
   /*background-color: #F8ECC2;*/
   /*background-color: #fbf0c8;*/
@@ -70,8 +66,34 @@ a {
   text-decoration: underline;
 }
 
+
+
+h1 {
+  font-weight: 400;
+  font-size: 150%;
+  font-weight: bold;
+  color: #05668D;
+}
+
 h2 {
   font-weight: 400;
   font-size: 125%;
-  color:inherit;
+  font-weight: bold;
+  color: #05668D;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+* {
+  /*font-family: inconsolata; important!*/
 }
