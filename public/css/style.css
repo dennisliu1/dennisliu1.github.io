@@ -79,9 +79,11 @@ body {
 
 /* desktop horizontal */
 @media (min-width: 992px) {
-  .col-md-2-5 {
-    width: 25%;
-  }
+
+}
+
+.col-md-2-5 {
+  width: 25%;
 }
 
 /* GLOBALS */
