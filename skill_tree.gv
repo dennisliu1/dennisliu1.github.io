@@ -1,0 +1,124 @@
+digraph G {
+	splines=line;
+	"Skill Tree";
+	subgraph cluster_0 {
+		"Strength";
+	}
+	subgraph cluster_1 {
+		"Dexterity";
+	}
+	subgraph cluster_2 {
+		"Constitution";
+	}
+	subgraph cluster_3 {
+		"Intelligence";
+		subgraph cluster_10 {
+			"Computers";
+			subgraph cluster_101 {
+				"Computer_Skills";
+				"SQL";
+				"DBMS";
+				"JS";
+				"Java";
+			}
+			subgraph cluster_102 {
+				"Computer_Science";
+				"Machine_Learning";
+			}
+			subgraph cluster_10 {
+				"Sysadmin"
+			}
+			subgraph cluster_104 {
+				"UX"
+			}
+		}
+	}
+	subgraph cluster_4 {
+		"Wisdom";
+	}
+	subgraph cluster_5 {
+		"Charisma";
+	}
+
+	"Skill Tree" -> "Strength";
+		"Strength" -> "Power";
+			"Power" -> "Martial Artist";
+			"Power" -> "Athlete";
+		"Strength" -> "Toughness";
+			"Toughness" -> "Climber";
+			"Toughness" -> "Survivalist";
+	"Skill Tree" -> "Dexterity";
+		"Dexterity" -> "Agility";
+			"Agility" -> "Parkour";
+			"Agility" -> "Gymnast";
+		"Dexterity" -> "Reflex";
+			"Reflex" -> "Sports";
+			"Reflex" -> "Video Gamer";
+	"Skill Tree" -> "Constitution";
+		"Constitution" -> "Stamina";
+			"Stamina" -> "Fitness";
+		"Constitution" -> "Health";
+			"Health" -> "Qigong";
+			"Health" -> "Tai Chi";
+	"Skill Tree" -> "Intelligence";
+		"Intelligence" -> "Memory";
+			"Memory" -> "Computers";
+				"Computers" -> "Computer_Skills";
+					"Computer_Skills" -> "SQL";
+					"Computer_Skills" -> "DBMS";
+					"Computer_Skills" -> "JS";
+					"Computer_Skills" -> "Java";
+				"Computers" -> "Computer_Science";
+					"Computer_Science" -> "Machine_Learning";
+				"Computers" -> "Sysadmin";
+				"Computers" -> "UX";
+			"Memory" -> "Engineer";
+			"Memory" -> "Scientist";
+		"Intelligence" -> "Intuition";
+			"Intuition" -> "Inventor";
+			"Intuition" -> "Psychologist";
+			"Intuition" -> "Doctor";
+			"Intuition" -> "Herbalist";
+	"Skill Tree" -> "Wisdom";
+		"Wisdom" -> "Perception";
+			"Perception" -> "Memory Training";
+			"Perception" -> "Studying Skills";
+			"Perception" -> "Speaker";
+			"Perception" -> "Go Master";
+		"Wisdom" -> "Intuition";
+			"Intuition" -> "Philosopher";
+			"Intuition" -> "Culture";
+			"Intuition" -> "Sociology";
+	"Skill Tree" -> "Charisma";
+		"Charisma" -> "Manipulation";
+			"Manipulation" -> "Teacher";
+			"Manipulation" -> "Stylist";
+			"Manipulation" -> "Leader";
+		"Charisma" -> "Creativity";
+			"Creativity" -> "Artist";
+			"Creativity" -> "Musician";
+			"Creativity" -> "Cook";
+			"Creativity" -> "Writer";
+			"Creativity" -> "Polyglot";
+}
+
+digraph G2 {
+	"Strength"
+		"Power"
+		"Toughness"
+	"Dexterity"
+		"Agility"
+		"Reflexes"
+	"Constitution"
+		"Stamina"
+		"Health"
+	"Intelligence"
+		"Memory"
+		"Intuition"
+	"Wisdom"
+		"Perception"
+		"Wits"
+	"Charisma"
+		"Manipulation"
+		"Creativity"
+}
