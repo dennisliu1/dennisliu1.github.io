@@ -43,7 +43,7 @@ digraph G {
 	"Skill Tree" -> "Strength";
 		"Strength" -> "Power";
 			"Power" -> "Martial Artist";
-			"Power" -> "Athlete";
+			"Power" -> "Weight Lifting";
 		"Strength" -> "Toughness";
 			"Toughness" -> "Climber";
 			"Toughness" -> "Survivalist";
@@ -89,6 +89,7 @@ digraph G {
 			"Intuition" -> "Philosopher";
 			"Intuition" -> "Culture";
 			"Intuition" -> "Sociology";
+			"Intuition" -> "Therapist";
 	"Skill Tree" -> "Charisma";
 		"Charisma" -> "Manipulation";
 			"Manipulation" -> "Teacher";
